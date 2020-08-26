@@ -334,8 +334,7 @@ box-shadow: -4px 10px 22px -11px rgba(0,0,0,0.75);
     }
     .span__section.ready{    
         display: block;
-        width: 70%;
-        margin-left: 0;
-        margin-bottom: 2rem;
+        width: 80%;
+        margin-left: 0;        
     }
 }
