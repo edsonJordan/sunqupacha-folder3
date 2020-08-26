@@ -103,6 +103,32 @@ box-shadow: -4px 10px 22px -11px rgba(0,0,0,0.75);
     width: 100%;  
     display: block;        
 }
+.header_section:nth-of-type(1){
+    background:url(huddle-landing-page-with-curved-sections-master/images/bg-section-top-desktop-1.svg) no-repeat;    ;
+    background-size: cover;
+    height: 100px;
+}
+.header_section:nth-of-type(2){
+    background:url(huddle-landing-page-with-curved-sections-master/images/bg-section-bottom-mobile-1.svg) no-repeat;    ;
+    background-size: cover;
+    height: 100px;
+}
+.header_section:nth-of-type(3){
+    background:url(huddle-landing-page-with-curved-sections-master/images/bg-section-top-mobile-2.svg) no-repeat;    ;
+    background-size: cover;
+    height: 100px;
+}
+.header_section:nth-of-type(4){
+    background:url(huddle-landing-page-with-curved-sections-master/images/bg-section-bottom-mobile-2.svg) no-repeat;    ;
+    background-size: cover;
+    height: 100px;
+}
+.header_section:nth-of-type(5){
+    background:url(huddle-landing-page-with-curved-sections-master/images/bg-footer-top-mobile.svg) no-repeat;    ;
+    background-size: cover;
+    height: 100px;
+}
+
 /* Grow together */
 .section{
     display: flex;
@@ -121,10 +147,9 @@ box-shadow: -4px 10px 22px -11px rgba(0,0,0,0.75);
 .h2__section{
     font-weight: 700;
 }
-.span__section{
-    /* font-weight: .3rem; */
+
+.section__text{
     font-weight: 400;
-    /* font-size: .857rem; */
     margin:4rem 1.36rem;
 }
 .img.section.grow__together{
@@ -208,4 +233,111 @@ box-shadow: -4px 10px 22px -11px rgba(0,0,0,0.75);
 }
 .none{
     display: none;
+}
+
+@media (min-width: 768px)  {
+    .img.logo{
+        width: 10rem;
+    }
+    .nav{
+        margin: 1.2rem 6rem;
+    }
+    .build{
+        padding: 4rem;
+    }
+    .h1_build{
+        font-size: 3rem;
+    }
+    .span_build{
+        margin: auto 27rem;
+    }
+    .img.build{
+        margin: auto;
+        width: 90%;
+    }
+    .build__count{
+        flex-direction: initial;
+        margin: auto;
+        width: 70%;
+        justify-content: space-between;    
+    }
+    .header_section:nth-of-type(1){
+        background:url(huddle-landing-page-with-curved-sections-master/images/bg-section-top-desktop-1.svg) no-repeat;    ;
+        background-size: cover;
+        height: 140px;        
+    }
+    .header_section:nth-of-type(2){
+        background:url(huddle-landing-page-with-curved-sections-master/images/bg-section-bottom-desktop-1.svg) no-repeat;    ;
+        background-size: cover;        
+        height: 140px;        
+    }
+    .header_section:nth-of-type(3){
+        background:url(huddle-landing-page-with-curved-sections-master/images/bg-section-top-desktop-2.svg) no-repeat;    ;
+        background-size: cover;        
+        height: 180px;        
+    }
+    .header_section:nth-of-type(4){
+        background:url(huddle-landing-page-with-curved-sections-master/images/bg-section-bottom-desktop-2.svg) no-repeat;    ;
+        background-size: cover;        
+        height: 180px;        
+    }
+    .header_section:nth-of-type(5){
+        background:url(huddle-landing-page-with-curved-sections-master/images/bg-footer-top-desktop.svg) no-repeat;    ;
+        background-size: cover;        
+        height: 180px;        
+    }     
+    .section.grow__together{
+        flex-direction: row;
+        float: left;
+        direction: rtl;                
+    }
+    .section__text{
+        text-align: left;
+        margin: auto 6rem;
+    }    
+    .img.section.grow__together{
+        margin-right: 4rem;
+        width: 50%;
+    }
+    .section.flow__conver{
+        flex-direction: row;
+        float: left;        
+    }    
+    .img.section.flow__conver{
+        margin-left: 4rem;
+        width: 50%;
+    }
+    .section.your_user{
+        flex-direction: row;
+        float: left;
+        direction: rtl; 
+    }
+    .img.section.your_user{
+        margin-right: 4rem;
+        width: 50%;
+    }
+    .img.logo.foot{
+        margin-bottom: 2rem;
+    }
+    .foot__new{
+        margin: 0 10rem;
+    }
+    .section.foot{        
+        flex-direction: row-reverse;
+        row-gap: 14rem;
+    }    
+    .social{
+        margin: 2rem auto;
+    }
+    .input__new{
+        width: 65%;
+        margin: initial;
+    }
+    .span__section.ready{
+        display: block;
+        margin-bottom: 2rem;
+        margin-right: 4rem;
+    }
+
+
 }
