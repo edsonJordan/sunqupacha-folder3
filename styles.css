@@ -5,8 +5,6 @@
     --color-very-dark-cyan:hsl(192, 100%, 9%);
     --color-very-pale-blue:hsl(207, 100%, 98%);
 }
-
-
 /* IMG */
 .img{
     box-sizing: border-box;
@@ -186,7 +184,7 @@ box-shadow: -4px 10px 22px -11px rgba(0,0,0,0.75);
     color: white;
 }
 .span__section.ready{
-    font-family: 600;
+    font-weight: 600;
     color: white;
     text-align: start;
     margin: auto;
@@ -249,7 +247,8 @@ box-shadow: -4px 10px 22px -11px rgba(0,0,0,0.75);
         font-size: 3rem;
     }
     .span_build{
-        margin: auto 27rem;
+        margin: auto;
+        width: 35%;
     }
     .img.build{
         margin: auto;
@@ -333,11 +332,10 @@ box-shadow: -4px 10px 22px -11px rgba(0,0,0,0.75);
         width: 65%;
         margin: initial;
     }
-    .span__section.ready{
+    .span__section.ready{    
         display: block;
+        width: 70%;
+        margin-left: 0;
         margin-bottom: 2rem;
-        margin-right: 4rem;
     }
-
-
 }
