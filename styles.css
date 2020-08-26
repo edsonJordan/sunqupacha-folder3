@@ -1,0 +1,211 @@
+:root{
+    /* Primary */
+    --color-pink:hsl(322, 100%, 66%);
+    /* Neutral */
+    --color-very-dark-cyan:hsl(192, 100%, 9%);
+    --color-very-pale-blue:hsl(207, 100%, 98%);
+}
+
+
+/* IMG */
+.img{
+    box-sizing: border-box;
+    object-fit: contain;
+}
+/* Button */
+.button{
+    border-top-left-radius: 1.2rem ;
+    border-top-right-radius: 1.2rem;
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    padding: .2rem 1.2rem;
+    border:1px solid var(--color-pink);        
+    background-color: white;
+    outline: none;
+}
+.button.nav{
+    font-weight: 400;
+    color: var(--color-pink);
+    margin-right: 0;
+}
+body{    
+    box-sizing: border-box;
+    margin: 0;
+    width: calc(100vw - (100vw - 100%));  
+    
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+.container__huddle{
+    width: 100%;    
+}
+.content__huddle{    
+}
+.nav{   
+    display: flex;
+    margin: 1.4rem;
+    justify-content: space-between;
+}
+.img.logo{  
+    width: 7rem;
+}
+/* Build the community */
+.build{
+    display: flex;
+    flex-direction: column;
+    text-align: center;        
+    padding: 1.4rem;
+}
+.build__fans{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem .7rem;
+    row-gap: 1.6rem;
+}
+.h1_build{
+    font-weight: 700;    
+}
+.span_build{
+    font-weight: 400;
+}
+.button.build{
+    background-color: var(--color-pink);
+    font-weight: 600;        
+    color: white;
+    padding: .6rem 2.4rem;
+    margin: 2rem auto;
+    -webkit-box-shadow: -4px 10px 22px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 10px 22px -11px rgba(0,0,0,0.75);
+box-shadow: -4px 10px 22px -11px rgba(0,0,0,0.75);
+}
+.img.build{
+    width: 100%;
+    margin: 0;
+}
+/* Build count */
+.build__count{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    margin:2rem auto;
+}
+.img.count{
+    display: block;
+    margin-left: .5rem;
+    width: 15%;
+}
+.h1.count{
+    margin: .2rem 0;
+    font-size: 4em;
+    color: var(--color-very-dark-cyan);
+}
+.header_section{          
+    width: 100%;  
+    display: block;        
+}
+/* Grow together */
+.section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;              
+}
+.section.grow__together{
+    background-color: var(--color-very-pale-blue);
+}
+.section.your_user{
+    background-color: var(--color-very-pale-blue);
+}
+.section.ready{
+    margin-bottom: 5rem;
+}
+.h2__section{
+    font-weight: 700;
+}
+.span__section{
+    /* font-weight: .3rem; */
+    font-weight: 400;
+    /* font-size: .857rem; */
+    margin:4rem 1.36rem;
+}
+.img.section.grow__together{
+    width: 80%;
+    margin: auto;
+    padding: 1.4rem ;
+    background-color: var(--color-very-pale-blue);
+}
+.img.section.flow__conver{
+    width: 80%;
+    margin: auto;
+    padding: 1.4rem ;    
+}
+.img.section.your_user{
+    width: 80%;
+    margin: auto;
+    padding: 1.4rem ;
+    background-color: var(--color-very-pale-blue);
+}
+
+.h2__ready{
+    font-weight: 700;    
+}
+/* Footer */
+.section.foot{        
+    background-color: var(--color-very-dark-cyan);
+}
+.foot__new{
+    text-align: left;
+    margin: 2rem 2.2rem;
+}
+.h2__new{
+    font-weight: 700;
+    color: white;
+}
+.span__section.ready{
+    font-family: 600;
+    color: white;
+    text-align: start;
+    margin: auto;
+    text-align: left;
+}
+.input__new{
+    outline: none;
+    margin: .5rem 0;
+    border: none;
+    border-radius: .4rem;
+    height: 2.6rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+.button.new{
+    background-color: var(--color-pink);
+    font-weight: 600;            
+    height: 2.6rem;
+    color: white;
+    padding: .6rem 2.4rem;
+    border-radius: .4rem;
+    float: right;        
+}
+.img.logo.foot{
+    display: block;
+    margin: .5rem 0;
+    width: 12rem;
+}
+.icons__info{
+    margin: 2rem 0;
+}
+.info{
+    display: flex;
+}
+.icon{
+    margin: auto 0;
+    width: 25px;
+    height: 25px;
+}
+.p_icon{
+    color: white;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+.none{
+    display: none;
+}
