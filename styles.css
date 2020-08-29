@@ -99,6 +99,7 @@ box-shadow: -4px 10px 22px -11px rgba(0,0,0,0.75);
 }
 .header_section{          
     width: 100%;  
+    border:none;
     display: block;        
 }
 .header_section:nth-of-type(1){
